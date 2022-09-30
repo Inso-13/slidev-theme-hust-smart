@@ -1,9 +1,12 @@
 ---
 theme: ./
 layout: cover
+date : 2022.9.30
+author: Inso
 ---
 
-# Presentation Title
+# Vision transformer for dense prediction
+
 
 Presentation slides for developers
 
