@@ -1,0 +1,38 @@
+:root {
+  --slidev-theme-primary: #233662;
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl leading-20;
+  }
+
+  h1+p {
+    @apply -mt-2 opacity-50 mb-4;
+  }
+
+  p+h2,
+  ul+h2,
+  table+h2 {
+    @apply mt-10;
+  }
+}
+
+.slidev-layout.default {
+  h1 {
+    @apply text-6xl leading-20;
+  }
+}
+
+
+/* for background image */
+.slidev-layout.cover,
+.slidev-layout.default {
+  background-image: url(../backgrounds/cover.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
