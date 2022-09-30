@@ -11,7 +11,12 @@ author: Inso
 Presentation slides for developers
 
 ---
+layout: center
+---
 
+# 1.背景介绍
+
+---
 # What is Slidev?
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features

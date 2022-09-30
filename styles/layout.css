@@ -21,6 +21,9 @@
   }
 }
 
+.slidev-layout.center {
+  @apply text-center text-8xl;
+}
 
 /* for background image */
 .slidev-layout.cover,
