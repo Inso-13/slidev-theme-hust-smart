@@ -15,7 +15,7 @@ const props = defineProps({
       <div class="block pt-18">
         <slot />
         <div v-if="author" class="pt-20">
-          <span class="date">
+          <span class="author">
             {{ author }}
           </span>
         </div>
@@ -25,6 +25,7 @@ const props = defineProps({
           </span>
         </div>
       </div>
+      <TopBar />
     </div>
   </div>
 </template>

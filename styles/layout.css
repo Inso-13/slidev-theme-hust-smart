@@ -21,15 +21,9 @@
   }
 }
 
-.slidev-layout.center {
-  @apply text-center text-8xl;
-}
 
-/* for background image */
-.slidev-layout.cover,
-.slidev-layout.default {
-  background-image: url(../backgrounds/cover.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+.slidev-layout.center {
+  h1 {
+    @apply text-center text-5xl font-mono;
+  }
 }

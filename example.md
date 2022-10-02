@@ -14,7 +14,7 @@ Presentation slides for developers
 layout: center
 ---
 
-# 1.背景介绍
+# 1.Background
 
 ---
 # What is Slidev?
