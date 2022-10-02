@@ -1,7 +1,8 @@
 <template>
-    <div class="slidev-layout center light grid">
-        <div class="my-auto w-full text-center">
-            <TopBar />
+    <div class="slidev-layout center grid">
+        <TopBar />
+
+        <div class="w-full text-center">
             <slot />
         </div>
     </div>

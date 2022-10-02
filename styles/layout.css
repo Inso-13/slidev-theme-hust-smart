@@ -2,8 +2,11 @@
   --slidev-theme-primary: #233662;
 }
 
-.slidev-layout.cover,
-.slidev-layout.intro {
+.slidev-layout {
+  @apply pt-0 pr-0 pl-0;
+}
+
+.slidev-layout.cover {
   @apply h-full grid text-center;
 
   h1 {
@@ -24,6 +27,6 @@
 
 .slidev-layout.center {
   h1 {
-    @apply text-center text-5xl font-mono;
+    @apply text-6xl font-mono;
   }
 }

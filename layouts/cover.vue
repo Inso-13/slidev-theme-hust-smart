@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const props = defineProps({
   author: {
     type: String,
@@ -11,21 +11,22 @@ const props = defineProps({
 
 <template>
   <div class="slidev-layout cover">
+    <TopBar />
+
     <div class="my-auto w-full">
-      <div class="block pt-18">
+      <div class="block">
         <slot />
-        <div v-if="author" class="pt-20">
+        <div v-if="props.author" class="pt-20">
           <span class="author">
-            {{ author }}
+            {{ props.author }}
           </span>
         </div>
-        <div v-if="date" class="pt-3">
+        <div v-if="props.date" class="pt-3">
           <span class="date">
-            {{ date }}
+            {{ props.date }}
           </span>
         </div>
       </div>
-      <TopBar />
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-barTop flex absolute w-full top-0 left-0 py-0.5 px-4 text-sm h-12"
+    <div class="bg-barTop flex relative w-full top-0 left-0 py-0.5 px-4 text-sm h-12"
         style="background-color: #203662;">
         <div class="w-1/2 absolute top-5.3 left-6.5 text-left font-bold">
             <span style="color: #04aeed;font-family: 'Times New Roman',Arial, Consolas;">SMART</span>
