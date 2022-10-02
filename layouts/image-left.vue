@@ -13,7 +13,7 @@ const props = defineProps({
     <div class="slidev-layout default image-left">
         <TopBar />
 
-        <div class="grid grid-cols-2 p-15">
+        <div class="grid grid-cols-2 px-15">
             <div class="my-auto">
                 <img class="border-image" :src="props.image" alt="props.alt" />
             </div>
