@@ -8,7 +8,10 @@ This theme provides the following layouts:
 
 + cover
 + center
-
++ default
++ image-left
++ image-right
++ two-cols
 ## Contributing
 
 - `npm install`
